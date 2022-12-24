@@ -1,0 +1,123 @@
+.circle{
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background-color: white;
+
+
+
+}
+
+.circle-site{
+    border-radius: 20PX;
+    background-color: #ffe7ad;
+    transition: .5s;
+    max-width: 600px;
+
+    .site-text:hover{
+      background-color: #6964fe;
+      color: #ffe7ad;
+      border-radius: 20px;
+
+    }
+
+}
+.circle-site:hover {
+  transform: scale(1.5);
+}
+
+
+a{
+  text-decoration: none;
+}
+
+.fa-brands {
+
+  transition: .6s;
+}
+
+.fa-brands:hover {
+  transform: scale(1.4);
+}
+
+
+
+.fa-instagram {
+  color: white;
+}
+.instagram {
+  background-color: #dc3545;
+}
+
+.instagram:hover{
+  background-color: transparent;
+
+}
+.instagram:hover .fa-instagram {
+  color: #dc3545;
+
+}
+.fa-facebook {
+  color: white ;
+}
+
+.facebook {
+  background-color: #0d6efd;
+}
+
+.facebook:hover {
+background-color: transparent;
+
+}
+
+.facebook:hover .fa-facebook {
+  color: #0d6efd;
+
+}
+
+.fa-tiktok {
+  color: white;
+}
+
+.tiktok {
+  background-color: black;
+}
+
+.tiktok:hover {
+  background-color: transparent;
+
+}
+
+.tiktok:hover .fa-tiktok {
+  color: #dc3545;
+
+}
+.fa-linkedin{
+  color: white;
+}
+.facebook:hover .fa-linkedin {
+  color: #0d6efd;
+
+}
+
+
+.whatsapp{
+  background-color: #008000;
+}
+
+.whatsapp:hover  {
+  background-color: transparent;
+}
+.whatsapp:hover .fa-whatsapp {
+  color: #008000;
+
+}
+
+
+.fa-whatsapp {
+  color: white;
+}
+
+.site-text{
+    color: #6964fe;
+}

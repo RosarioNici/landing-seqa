@@ -1,0 +1,73 @@
+.logo {
+  height: 80px;
+  padding-left: 5px;
+}
+
+.img-logo {
+  width: 80px;
+
+}
+.text-form{
+  color: #fccd4d;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hero {
+  margin-top: 106px;
+}
+
+.navbar {
+  background-color: antiquewhite;
+}
+
+.from-mar {
+  margin-top: 90px;
+  justify-content: center;
+}
+
+.fa-brands {
+
+  transition: .6s;
+}
+
+.fa-brands:hover {
+  transform: scale(1.4);
+}
+
+.fa-airbnb {
+  color: #fccd4d;
+
+}
+
+.fa-instagram {
+  color: #dc3545;
+}
+
+.fa-whatsapp {
+  color: green;
+}
+h4{
+      text-align: center;
+}
+.form-w{
+  max-width: 500px;}
+
+@media screen and (max-width: 900px) {
+  .from-mar {
+    flex-direction: column;
+  }
+
+  .icon-social {
+    flex-direction: row;
+    justify-content: space-between;
+
+  }
+
+  .component {
+    margin-top: 70px;
+    width: 100%;
+  }
+}
