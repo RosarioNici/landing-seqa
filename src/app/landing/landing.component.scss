@@ -1,10 +1,10 @@
 .landing{
   z-index: 1;
-  background: linear-gradient(-45deg, #dc3545, green, #6964fe, #fadd5c);
+  background: linear-gradient(-45deg, #dca235, rgba(61, 64, 236, 0.575), #6964fea2, #fadd5c);
   background-size: 400% 400%;
   width: 100%;
   height: 100vh;
-  animation: animate 15s ease infinite;
+  animation: animate 10s ease infinite;
 }
 
 h3{
